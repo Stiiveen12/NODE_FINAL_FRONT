@@ -1,0 +1,10 @@
+<app-menu></app-menu>
+<div class="row">
+<mat-card>
+<mat-card-title>Heroes</mat-card-title>
+<div class="example-button-row">
+  <button mat-raised-button class="postion-boton"color="warn" (click)="ventanaModal()">Agregar</button>
+</div>
+  <ng2-smart-table [settings]="settings"  [source]='data'  (custom)="getContact($event)"></ng2-smart-table>
+</mat-card>
+</div>

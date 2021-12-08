@@ -1,0 +1,18 @@
+<h1 mat-dialog-title></h1>
+<div mat-dialog-content>
+  <form [formGroup]="form" class="example-form" enctype="application/x-www-form-urlencoded">
+    <table class="example-full-width" cellspacing="0"><tr>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input formControlName="nombreHeroe" matInput>
+      </mat-form-field></td>
+      <td><mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Poderes</mat-label>
+        <input formControlName="poderes" matInput>
+      </mat-form-field></td>
+    </tr></table>
+  <button mat-dialog-header mat-raised-button class="postion-boton"color="primary" (click)='agregar();' >{{name}}</button>
+  <button mat-dialog-header mat-raised-button color="warn" [mat-dialog-close]=true>cerrar</button>
+  </form>
+  
+</div>

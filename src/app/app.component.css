@@ -1,0 +1,22 @@
+.row{
+    padding: 5rem;
+    padding-top: 1rem
+    ;
+}
+
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+.postion-boton{
+  left:67rem;
+}
+  
